@@ -1,0 +1,40 @@
+// export default class MainScreen extends Component {
+    
+//     state={
+//         data:[]
+//     }
+
+
+//     fetchData = async() => {
+//         const response = await
+//         fetch('http://6251-178-120-21-165.ngrok.io/wp-json/wp/v2/posts/');
+        
+//         const posts = await response.json();
+
+//         this.setState({data:posts})
+//     }
+
+//     componentDidMount(){
+//         this.fetchData();
+//     }
+
+//     render() {
+//         return (
+            
+//             <SafeAreaView>
+                
+//                 <FlatList 
+//                     data={this.state.data}
+//                     KEY={item => item.id.toString()}
+//                     renderItem={({item}) =>
+//                         <View>
+//                             <Text>{item.title.rendered}</Text>
+//                             <Text>{item.content.rendered.replace(/<\/?[^>]+(>|$)/g, "")}</Text>
+                            
+//                         </View>
+//                     }
+//                 />
+//             </SafeAreaView>
+//         )
+//     }
+// }
